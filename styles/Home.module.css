@@ -1,0 +1,93 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 5rem;
+  line-height: 1;
+  margin-top: 1.5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 800px;
+  color: #6b6b6b;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  margin-right: 12px;
+}
+
+.name {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #121212;
+  color: white;
+  padding: 22px 60px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 38px;
+    line-height: 1;
+  }
+
+  .description {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .button {
+    padding: 18px 50px;
+  }
+}
