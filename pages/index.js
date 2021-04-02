@@ -23,9 +23,9 @@ export default function Home() {
           <h1 className={styles.title}>UI-X Designer + Developer</h1>
 
           <p className={styles.description}>
-            Use this space to introduce yourself, and maybe share a few links to
-            your work, or your Twitter profile. Duplicate this template for free
-            from the Super Market. See instructions here.
+            A pseudo-Latin text used in web design, layout, and printing in
+            place of things to emphasise layouts for previewing layouts and
+            visual mockups.
           </p>
         </Fade>
         <Fade up>
