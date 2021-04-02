@@ -14,7 +14,7 @@ export default function Home() {
         <Fade>
           {' '}
           <section className={styles.intro}>
-            <img src='/avatar.jpg' className={styles.avatar} />
+            <img src='/avatar.JPG' className={styles.avatar} />
             <span className={styles.name}>White Wolf</span>
           </section>
         </Fade>
