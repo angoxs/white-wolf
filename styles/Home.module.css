@@ -78,7 +78,7 @@
 .view_more {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   cursor: pointer;
   background: #121212;
   padding: 15px 55px;

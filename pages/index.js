@@ -29,11 +29,13 @@ export default function Home() {
             visual mockups.
           </p>
         </Fade>
-        <a className={styles.view_more}>
-          {' '}
-          View More
-          <ArrowDown />
-        </a>
+        <Fade up>
+          <a className={styles.view_more}>
+            {' '}
+            View More
+            <ArrowDown />
+          </a>
+        </Fade>
       </main>
     </div>
   );
