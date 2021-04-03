@@ -63,24 +63,34 @@
 
 .icon_frame {
   padding: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 12px;
+}
+
+.icon_frame svg {
+  fill: white;
 }
 
 .view_more {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   cursor: pointer;
+  background: #121212;
+  padding: 15px 55px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.2s linear;
 }
 
-.action {
-  font-size: 16px;
-  font-weight: 700;
-  margin-left: 12px;
+.view_more:hover {
+  transform: translateY(-6px);
 }
 
 .button {
@@ -99,6 +109,10 @@
 @media (max-width: 768px) {
   .container {
     padding: 0 20px;
+  }
+
+  .view_more {
+    width: 100%;
   }
 
   .title {
