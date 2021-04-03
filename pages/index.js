@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from 'react-reveal';
+import ArrowDown from '../components/Icons/ArrowDown';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>White Wolf</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -29,7 +30,10 @@ export default function Home() {
           </p>
         </Fade>
         <Fade up>
-          <button className={styles.button}>Get In Touch</button>
+          <div className={styles.view_more}>
+            <ArrowDown />
+            <a className={styles.action}>View My Work</a>
+          </div>
         </Fade>
       </main>
     </div>
